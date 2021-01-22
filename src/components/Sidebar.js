@@ -8,7 +8,7 @@ class Sidebar extends Component {
         <div className="sidebar-wrapper">
           <div className="logo">
             <Link to='/' className="simple-text">
-              Simple Dashboard
+              Entefy Analytics Dashboard
             </Link>
           </div>
           <ul className="nav">
