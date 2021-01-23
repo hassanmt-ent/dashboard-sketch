@@ -254,6 +254,12 @@ input:focus {
     transition: all 300ms linear;
 }
 
+
+.sidebar{
+    background-color: #1f2e85;
+}
+
+
 .sidebar .nav a,
 .table>tbody>tr .td-actions .btn {
     -webkit-transition: all 150ms ease-in;

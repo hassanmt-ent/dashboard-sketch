@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { NavLink, Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 class Sidebar extends Component {
   render() {
@@ -8,7 +9,7 @@ class Sidebar extends Component {
         <div className="sidebar-wrapper">
           <div className="logo">
             <Link to='/' className="simple-text">
-              Entefy Analytics Dashboard
+              Tools Pane
             </Link>
           </div>
           <ul className="nav">
@@ -22,6 +23,18 @@ class Sidebar extends Component {
               <NavLink className="nav-link" to='/profile'>
                 <i className="nc-icon nc-circle-09"></i>
                 <p>User Profile</p>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to='/current-orders'>
+                {/* <i className="nc-icon nc-circle-09"></i> */}
+                <p>Current Orders</p>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to='/past-orders'>
+                {/* <i className="nc-icon nc-circle-09"></i> */}
+                <p>Past Orders</p>
               </NavLink>
             </li>
 

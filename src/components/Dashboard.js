@@ -32,8 +32,8 @@ class Dashboard extends Component {
             <div className="col-md-4">
               <div className="card ">
                 <div className="card-header ">
-                  <h4 className="card-title">Email Statistics</h4>
-                  <p className="card-category">Last Campaign Performance</p>
+                  <h4 className="card-title">Email Usage</h4>
+                  <p className="card-category">*tracking shown for last 30 days</p>
                 </div>
                 <div className="card-body ">
                   <ChartistGraph data={dataPie} type="Pie" />

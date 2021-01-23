@@ -17,10 +17,10 @@ class UserProfile extends Component {
                   <div className="author">
                     <Link to='/'>
                       <img className="avatar border-gray" src={face3} alt="..." />
-                      <h5 className="title">Mike Andrew</h5>
+                      <h5 className="title">John Doe</h5>
                     </Link>
                     <p className="description">
-                      michael24
+                      johndoe@email.com
                     </p>
                   </div>
                   <p className="description text-center">
