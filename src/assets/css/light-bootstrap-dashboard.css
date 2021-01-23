@@ -1,18 +1,4 @@
-/*=========================================================
- Light Bootstrap Dashboard - v2.0.1
-=========================================================
 
- Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard
- Copyright 2019 Creative Tim (https://www.creative-tim.com)
- Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/master/LICENSE)
-
- Coded by Creative Tim
-
-=========================================================
-
- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.*/
- 
-/*      light colors         */
 
 @keyframes spin {
     from {
@@ -126,6 +112,8 @@ h6,
     font-weight: 600;
     text-transform: uppercase;
 }
+
+
 
 p {
     font-size: 16px;
@@ -255,9 +243,6 @@ input:focus {
 }
 
 
-.sidebar{
-    background-color: #1f2e85;
-}
 
 
 .sidebar .nav a,
@@ -308,7 +293,7 @@ input:focus {
 }
 
 .page-header .filter:after {
-    background: transparent linear-gradient(to bottom, #9368e9 0%, #943bea 100%) repeat scroll 0 0/150% 150%;
+    background: transparent linear-gradient(to bottom, #33254e 0%, #402d52 100%) repeat scroll 0 0/150% 150%;
     content: "";
     display: block;
     height: 100%;
@@ -591,12 +576,12 @@ body>.navbar-collapse:before {
 .sidebar:after,
 body>.navbar-collapse:after {
     background: #1f2e85;
-    background: -moz-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9368E9), color-stop(100%, #943bea));
-    background: -webkit-linear-gradient(top, #9368E9 0%, #943bea 100%);
+    background: -moz-linear-gradient(top, #2f2249 0%, #3d2455 100%);
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9368E9), color-stop(100%, #943bea)); */
+    /* background: -webkit-linear-gradient(top, #9368E9 0%, #943bea 100%);
     background: -o-linear-gradient(top, #9368E9 0%, #943bea 100%);
     background: -ms-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: linear-gradient(to bottom, #9368E9 0%, #943bea 100%);
+    background: linear-gradient(to bottom, #9368E9 0%, #943bea 100%); */
     background-size: 150% 150%;
     z-index: 3;
     opacity: 1;

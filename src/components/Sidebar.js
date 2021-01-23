@@ -5,6 +5,7 @@ import styled from 'styled-components'
 class Sidebar extends Component {
   render() {
     return (
+        <div>
       <div className="sidebar">
         <div className="sidebar-wrapper">
           <div className="logo">
@@ -37,12 +38,22 @@ class Sidebar extends Component {
                 <p>Past Orders</p>
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to='/past-orders'>
+                {/* <i className="nc-icon nc-circle-09"></i> */}
+                <p>Graphical Analysis</p>
+              </NavLink>
+            </li>
 
           </ul>
         </div>
       </div>
+      </div>
     )
   }
 }
+
+const SideColor = styled.div`
+background-color: navy`
 
 export default Sidebar

@@ -13,6 +13,9 @@ class Navbar extends Component {
                 <Link className="nav-link" to='/'>
                   <span className="no-icon">Log out</span>
                 </Link>
+                <Link className="nav-link" to='/'>
+                  <span className="no-icon">Settings</span>
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ChartistGraph from 'react-chartist'
+import Bar from "./Bar"
 
 class Dashboard extends Component {
   render() {
@@ -23,6 +24,10 @@ class Dashboard extends Component {
         [67, 152, 143, 240, 287, 335, 435, 437],
         [23, 113, 67, 108, 190, 239, 307, 308]
       ]
+
+     
+    
+
     }
     return (
       <div className="content">
@@ -63,6 +68,27 @@ class Dashboard extends Component {
                     <i className="fa fa-circle text-info"></i> Open
                     <i className="fa fa-circle text-danger"></i> Click
                     <i className="fa fa-circle text-warning"></i> Click Second Time
+                </div>
+                  <hr />
+                  <div className="stats">
+                    <i className="fa fa-history"></i> Updated 3 minutes ago
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-8">
+              <div className="card">
+                <div className="card-header ">
+                  <h4 className="card-title">Bar performances</h4>
+                  <p className="card-category">24 Hours monitoring</p>
+                </div>
+                <div className="card-body ">
+                 <Bar />
+                </div>
+                <div className="card-footer ">
+                  <div className="legend">
+                    <i className="fa fa-circle text-info"></i> Open
+                
                 </div>
                   <hr />
                   <div className="stats">
